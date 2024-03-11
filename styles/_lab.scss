@@ -1,0 +1,21 @@
+.lab-container {
+    @include design;
+
+    h2 {
+        text-align: center;
+    }
+
+    .lab {
+        @include design;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(650px, auto));
+        gap: 1.5rem 1rem;
+
+        div {
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

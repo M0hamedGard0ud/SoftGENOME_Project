@@ -1,0 +1,16 @@
+.reservation {
+    @include flex(column, space-around, center, 2rem, none);
+    @include design;
+
+    p {
+        text-align: center;
+    }
+
+    button {
+        border-radius: 1rem;
+        border: none;
+        padding: 1rem;
+        background-color: $tertiary-color;
+        width: 600px;
+    }
+}

@@ -1,0 +1,31 @@
+footer {
+    background-color: $fifth-color;
+    height: 9rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.icon-list {
+    @include flex(none, center, none, 0, none);
+}
+
+.icon {
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 1.8rem;
+}
+
+li {
+    list-style: none;
+}
+
+.fa-instagram {
+    color: $sixth-color;
+}
+
+.fa-linkedin {
+    color: $seventh-color;
+}
+
+.fa-x-twitter {
+    color: $secondary-color;
+}

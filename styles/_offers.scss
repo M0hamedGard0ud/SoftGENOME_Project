@@ -1,0 +1,26 @@
+.offer-container {
+    @include design;
+
+    h2 {
+        text-align: center;
+    }
+
+    .offer {
+        margin: 2rem auto;
+        @include grid;
+
+        div {
+            @include flex(column, space-around, none, 0, none);
+            height: 650px;
+            background-color: $tertiary-color;
+            padding: 3rem;
+
+            button {
+                border-radius: 1rem;
+                border: none;
+                padding: 1rem;
+                color: $secondary-color;
+            }
+        }
+    }
+}

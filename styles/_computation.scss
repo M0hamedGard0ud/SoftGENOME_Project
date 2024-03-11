@@ -1,0 +1,18 @@
+.computation-container {
+    @include design;
+
+    h2 {
+        text-align: center;
+    }
+
+    .tools {
+        margin: 5rem auto;
+        @include flex(none, center, center, 1rem, wrap);
+
+        div {
+            img {
+                width: 70px;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.about {
+    @include design;
+    @include flex(column, space-around, center, 2rem, none);
+
+    p {
+        text-align: center;
+    }
+}
